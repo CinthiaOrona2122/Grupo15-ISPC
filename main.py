@@ -9,8 +9,16 @@ def suma(a,b,c):
 def resta(a,b):
     return(a-b)
 
+def producto():
+    a = int(input("Ingrese el primer numero "))
+    b = int(input("Ingrese el primer numero "))
+    c = int(input("Ingrese el primer numero "))
+    d = int(input("Ingrese el primer numero "))
+
+    return (a*b*c*d)
 
 if __name__=="__main__":
     print("Primer programa en Python !!")
     print("La suma es: ", str(suma(1,2,3)))
     print("La resta es: ", str(resta(5,3)))
+    print("El producto es: ", str(producto()))
